@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+
+	<!--node pkg="rosaria" name="RosAria" type="RosAria" args="_port:=/dev/ttyUSB0" output="screen"></node-->
+	<node pkg="rosaria" name="RosAria" type="RosAria" args="_port:=/dev/serial/by-id/usb-Prolific_Technology_Inc._USB-Serial_Controller-if00-port0" output="screen"></node>
+
+</launch>
